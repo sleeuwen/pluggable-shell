@@ -4,6 +4,13 @@ using PluggableShell.Sdk;
 
 namespace PluggableShell.Base64
 {
+    /**
+     * Plugin that will return the base64 value of the given input
+     * <br/><br/>
+     *
+     * Usage:
+     *     base64 &lt;input&gt;
+     */
     public class Base64Plugin : IPlugin
     {
         public string Name => "base64";

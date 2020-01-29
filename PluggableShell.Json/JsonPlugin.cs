@@ -4,6 +4,12 @@ using PluggableShell.Sdk;
 
 namespace PluggableShell.Json
 {
+    /**
+     * Plugin that will pretty print JSON.
+     * <br/><br/>
+     * Usage:
+     *     json &lt;json&gt;
+     */
     public class JsonPlugin : IPlugin
     {
         public string Name => "json";

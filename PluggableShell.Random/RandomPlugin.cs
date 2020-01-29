@@ -3,6 +3,12 @@ using PluggableShell.Sdk;
 
 namespace PluggableShell.Random
 {
+    /**
+     * Generate a random number, possibly with a minimum and maximum value
+     * <br/><br/>
+     * Usage:
+     *     random [[min], max]
+     */
     public class RandomPlugin : IPlugin
     {
         public string Name => "random";

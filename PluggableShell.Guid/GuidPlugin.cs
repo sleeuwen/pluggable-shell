@@ -2,6 +2,12 @@
 
 namespace PluggableShell.Guid
 {
+    /**
+     * Plugin that will print a random guid
+     * <br/><br/>
+     * Usage:
+     *     guid
+     */
     public class GuidPlugin : IPlugin
     {
         public string Name => "guid";

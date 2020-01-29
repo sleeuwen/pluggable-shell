@@ -4,6 +4,13 @@ using PluggableShell.Sdk;
 
 namespace PluggableShell
 {
+    /**
+     * Plugin that shows the help message of a plugin or a list of available commands.
+     * <br/><br/>
+     *
+     * Usage:
+     *     help [plugin]
+     */
     public class HelpPlugin : IPlugin
     {
         public string Name => "help";
@@ -22,7 +29,7 @@ namespace PluggableShell
             shell.WriteLine("Available commands:");
             foreach (var plugin in shell.GetPlugins())
             {
-                Console.WriteLine(plugin.Name);
+                shell.WriteLine(plugin.Name);
             }
         }
 

@@ -4,6 +4,12 @@ using PluggableShell.Sdk;
 
 namespace PluggableShell.RegexMatch
 {
+    /**
+     * A simple plugin that can display regex matches for a given string.
+     * <br/><br/>
+     * Usage:
+     *     matches &lt;regex&gt; &lt;input&gt;
+     */
     public class RegexMatchPlugin : IPlugin
     {
         public string Name => "matches";
